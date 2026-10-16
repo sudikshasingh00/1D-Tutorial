@@ -10,6 +10,15 @@ Off-white     #f6f6f6
 
 /* GLOBAL STYLES 
 ------------------------------------*/
+/*
+https:/www.paulirish.com/2012/b0x-sizing-border-box-ftw/
+*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     background: #f6f6f6; 
 }
@@ -67,4 +76,8 @@ footer a:hover {
 footer {
     background: #222;
     color: #d3d4d6;
+}
+.socials {
+    list-style-type: none;
+    padding: 0%;
 }
