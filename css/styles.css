@@ -13,8 +13,15 @@ Off-white     #f6f6f6
 body {
     background: #f6f6f6; 
 }
-
-
+/* links */
+a 
+{
+    color: #3c8453;
+}
+a:hover {
+    color:#bcaa96 ;
+    text-decoration: none;
+}
 /* HOME
 ------------------------------------*/
 .home{
