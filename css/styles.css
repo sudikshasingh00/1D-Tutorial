@@ -22,6 +22,10 @@ body {
     background-size: cover;
 }
 
+.home .content-wrapper {
+    background: rgb(255 255 255 / 0.9);
+}
+
 /* RESUME
 ------------------------------------*/
 
@@ -40,3 +44,7 @@ body {
 
 /* FOOTER
 ------------------------------------*/
+footer {
+    background: #222;
+    color: #d3d4d6;
+}
